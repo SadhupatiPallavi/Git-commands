@@ -352,3 +352,83 @@ Purpose:
 Force pushes commits to remote repository.
 Example:
 git push --force
+8. Remote Repository Commands
+git remote
+Syntax:
+git remote
+Purpose:
+Lists all remote repositories connected to the local repository.
+Example:
+git remote
+git remote -v
+Syntax:
+git remote -v
+Purpose:
+Displays remote repository names along with their URLs.
+Example:
+git remote -v
+git remote add
+Syntax:
+git remote add origin <repository-url>
+Purpose:
+Adds a new remote repository to the local repository.
+Example:
+git remote add origin https://github.com/user/repository.git
+git remote remove
+Syntax:
+git remote remove origin
+Purpose:
+Removes a remote repository from the local repository.
+Example:
+git remote remove origin
+git fetch
+Syntax:
+git fetch
+Purpose:
+Downloads changes from the remote repository without merging them.
+Example:
+git fetch
+git fetch --all
+Syntax:
+git fetch --all
+Purpose:
+Fetches updates from all configured remote repositories.
+Example:
+git fetch --all
+git pull
+Syntax:
+git pull
+Purpose:
+Fetches changes from a remote repository and merges them into the current branch.
+Example:
+git pull origin main
+Screenshot Proof:
+(Add screenshot)
+git pull --rebase
+Syntax:
+git pull --rebase
+Purpose:
+Fetches changes from the remote repository and rebases local commits on top of them.
+Example:
+git pull --rebase origin main
+git push
+Syntax:
+git push
+Purpose:
+Uploads local commits to the remote repository.
+Example:
+git push origin main
+git push -u origin branch-name
+Syntax:
+git push -u origin branch-name
+Purpose:
+Pushes a branch to the remote repository and sets it as the upstream branch.
+Example:
+git push -u origin main
+git push --force
+Syntax:
+git push --force
+Purpose:
+Force pushes commits to the remote repository, overwriting remote history.
+Example:
+git push --force
